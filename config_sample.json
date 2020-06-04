@@ -1,0 +1,10 @@
+{
+    "redmine": {
+        "api_key": "",
+        "url_root": "",
+        "basic_auth": {
+            "username": "",
+            "password": ""
+        }
+    }
+}
