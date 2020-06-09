@@ -1,4 +1,4 @@
-module github.com/pirosuke/rm2json
+module github.com/pirosuke/redmine2json
 
 go 1.14
 

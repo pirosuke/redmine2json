@@ -12,7 +12,7 @@ import (
 	"time"
 
 	"github.com/antonholmquist/jason"
-	redmine "github.com/pirosuke/rm2json"
+	redmine "github.com/pirosuke/redmine2json"
 )
 
 /*
