@@ -40,6 +40,12 @@ func fileExists(filePath string) bool {
 }
 
 func main() {
+
+	flag.Usage = func() {
+		fmt.Fprintf(os.Stderr, "Usage: rm2json [flags]\n")
+		flag.PrintDefaults()
+	}
+
 	configName := flag.String("c", "", "Config Name")
 	outputDirPath := flag.String("o", ".", "Output Directory Path")
 	flag.Parse()
